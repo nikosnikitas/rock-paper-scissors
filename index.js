@@ -41,7 +41,7 @@ function computerTurn() {
     return move;
 }
 
-//  Prompts player for his move.
+//  Takes Player's move from the button selected.
 function playerTurn() {
 
     const body = document.querySelector('body');
@@ -115,7 +115,7 @@ function playTurn(computerMove, playerMove) {
         }
     }
 }
-//  Main game loop. Repeats for the given number of turns.
+//  Main game loop.
 function main() {
 
     const startGame = document.querySelector('#start'); 
